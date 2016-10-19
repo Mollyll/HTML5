@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息管理</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="framework/jquery-2.1.4/jquery.min.js"></script>
+    <script src="js/indexedDB.js"></script>
+    <script src="js/list.js"></script>
+</head>
+<body>
+    <header>
+        <h1>学生信息管理</h1>
+    </header>
+    <article>
+        <section>
+            <input type="search" id="search" placeholder="请输入搜索词">
+            <label for="search" id="query">搜索</label>
+        </section>
+        <section>
+            <table class="tb1">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>地址</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="d1">
+                    <td><input type="checkbox"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <button><a href="studentAdd.html">添加</a></button>
+            <button><a href="studentUpd.html">修改</a></button>
+            <button>删除</button>
+        </section>
+    </article>
+</body>
+</html>

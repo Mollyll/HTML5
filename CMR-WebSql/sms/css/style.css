@@ -1,0 +1,5 @@
+article{ font-family:"微软雅黑,宋体"; font-size:12px;}
+a{ text-decoration:none; color:#000000;}
+.tb1{ width:500px; border-collapse:collapse; margin:20px 0;}
+.tb1 th, .tb1 td{ border:1px solid #000000; text-align:center;}
+.d1{ display:none;}
